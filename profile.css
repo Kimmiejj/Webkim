@@ -1,0 +1,112 @@
+body {
+    background-image: url(./picture/bg\ PRo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0px;
+    overflow: hidden;
+
+}
+
+
+ul {
+    z-index: 5;
+    position: relative;
+    /* เอาไว้เพื่อใช้ตอนที่ไม่สามารถกดปุ่มได้*/
+    list-style-type: none;
+    background-color: #052F35;
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content:center;
+
+}
+
+li {
+
+    float: left;
+    font-family: 'Cunia';
+    font-weight: bolder;
+    font-size: 200%;
+}
+
+li a {
+
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+li a:hover {
+    background-color: black;
+    color: rgba(255, 0, 0, 0.904);
+}
+
+a {
+    font-weight: 80px;
+    color: white;
+}
+
+#moon {
+    width: 40%;
+    height: 90%;
+    float: right;
+    margin-top: 0px;
+    position: relative;
+    animation-name: moon;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes moon {
+    0% {
+        top: 0px;
+        right: -3%;
+    }
+
+
+    50% {
+        top: 0px;
+        right: 5%;
+    }
+
+
+
+    100% {
+        top: 0px;
+        right: -3%;
+    }
+}
+
+
+
+.gp{
+    background-image: url(./picture2/profie.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width:400px;
+    height:400px;
+    margin-top: 50px;
+    margin-left: 40px;
+    transition: .5s;
+}
+.gp:hover {
+    box-shadow:0px 0px 40px #fbe00a;
+    background-image:url(./picture2/Set\ goals..png);
+    background-size: 100%;
+    width: 800px;
+    height: 450px;
+    border-radius: 0%;
+    
+
+}
+
+
